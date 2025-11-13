@@ -13,20 +13,21 @@ Both models can be run directly for inference using the saved model files.
 - Inference scripts allow you to input any sentence and receive a predicted relation instantly.
 
 ## Repository Structure
+```
 relation-extraction-nyt/
 ├── SVM_TextMining.ipynb
 ├── Roberta_TextMining.ipynb
 ├── inference_svm.py
 ├── inference_roberta.py
 ├── models/
-│ ├── svm_text_classifier.pth
-│ ├── tfidf_vectorizer.pkl
-│ ├── label_encoder.pkl
-│ ├── relationship_extraction_model.pth
-│ └── tokenizer.pkl
+│   ├── svm_text_classifier.pth
+│   ├── tfidf_vectorizer.pkl
+│   ├── label_encoder.pkl
+│   ├── relationship_extraction_model.pth
+│   └── tokenizer.pkl
 ├── requirements.txt
 └── README.md
-
+```
 ## Installation
 pip install -r requirements.txt
 
