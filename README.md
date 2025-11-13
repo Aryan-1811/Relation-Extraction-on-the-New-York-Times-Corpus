@@ -23,8 +23,7 @@ relation-extraction-nyt/
 │   ├── svm_text_classifier.pth
 │   ├── tfidf_vectorizer.pkl
 │   ├── label_encoder.pkl
-│   ├── relationship_extraction_model.pth
-│   └── tokenizer.pkl
+│   └── relationship_extraction_model.pth
 ├── requirements.txt
 └── README.md
 ```
@@ -41,7 +40,6 @@ Create a folder named `models` and place the following files inside it.
 
 ### RoBERTa files
 - `relationship_extraction_model.pth`
-- `tokenizer.pkl`
 - `label_encoder.pkl`
 
 RoBERTa model weights download link:  
